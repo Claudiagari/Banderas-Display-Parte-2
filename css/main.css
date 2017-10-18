@@ -1,0 +1,29 @@
+/* usando el border box para que las cajas sean del mismo tamaño*/
+*{
+  box-sizing: border-box;
+}
+/*LLamando a la clase orange, spara colocar las medidas necesarias*/
+.orange{
+  background-color: #ffc107;
+  font-size:150%;
+  width: 330px;
+  height: 200px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
+/*LLamando a la clase black, para colocar las medidas necesarias*/
+.black{
+  background-color:#202020;
+  font-size:150%;
+  color: white;
+  width: 330px;
+  height: 200px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  display:block;
+}
